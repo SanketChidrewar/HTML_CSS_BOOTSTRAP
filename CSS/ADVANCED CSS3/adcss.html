@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced CSS Testing</title>
+
+    <style>
+
+        #topArea{
+            height: 100px;
+            color: rgb(197, 197, 66);
+            background-color: darkgray;
+            text-align: center;
+        }
+        
+        .styleText{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            font-style: italic;
+            line-height: 50px;
+            letter-spacing: 2px;
+
+            color: #0a090a;
+           border: rgb(26, 24, 24) 5px solid; 
+           /*border-top: solid 5px rgb(243, 26, 26);
+           border-left: dotted 3px green;
+           border-right: solid 3px rgb(121, 8, 252);*/
+           background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSE9SgWp77RnZaeyPBbv4fhrY5X7qpCiYMhs3HlmCc9nGqJ24FI&usqp=CAU");
+           background-size:cover; 
+           width: 1000px;
+            height: 800px;
+            padding: 15px; /*to keep space in box content and border line*/
+            margin: 150px; /*to keep space outside box content and border line*/
+
+          /*  background-color: rgb(158, 148, 148);*/
+        }
+
+        a{
+            color: tomato;
+            text-decoration: none;
+        }
+        a:hover {
+              color: #ff0000;
+              text-decoration: underline;
+          }
+    </style>
+
+</head>
+<body>
+    <div id="topArea"><h1>HOME</h1></div>
+    <p class="styleText"> “Take a quiet walk with mother nature. <br>   It will nurture your mind, body, and soul.” <br>  
+      - <a class="styleAnchor" href="https://en.wikipedia.org/wiki/A._D._Williams"> A.D. Williams</a> <br> </p>
+
+</body>
+</html>

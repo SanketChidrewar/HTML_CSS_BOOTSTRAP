@@ -1,0 +1,14 @@
+
+
+p{
+	position: absolute;
+	font-family: courier new;
+	font-size: 50pt;
+	border-color: #27b627;
+	background: #176b1759;
+	border-style: solid;
+	color:black !important;
+
+	/*border-radius: 5px;*/
+}
+
